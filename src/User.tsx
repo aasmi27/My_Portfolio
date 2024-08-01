@@ -27,6 +27,11 @@ const ProjectInfo = [
     technologies: ["React Native", "NodeJS", "Tailwind", "Prisma", "AWS"],
   },
   {
+    title: "Mograsys ParentApp",
+    desc: "This is a mobile application completely developed for parents and students to check all the circulars, assignments and several other advanced features are developed in this application.",
+    technologies: ["React Native", "NodeJS", "Tailwind", "Prisma", "AWS"],
+  },
+  {
     title: "Translation",
     desc: "Worked on Auto translate for communication Application reference from TWITTER. Got a good amount of experience in using AWS translate similar to Google translate",
     technologies: ["HTML", "CSS", "AngularJS", "C#", "MySQL", "AWS"],
@@ -56,7 +61,6 @@ const SkillInfo = [
     skills: [
       "HTML",
       "CSS",
-      "JavaScript",
       "React JS",
       "React Native",
       "AngularJS",
