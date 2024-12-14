@@ -46,11 +46,11 @@ const About = () => {
               />{" "}
             </span>
           </div>
-          <div className="text-textColor text-xl w-[90%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">
+          <div className="text-textColor text-xl w-[100%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">
             {Info.bio}
           </div>
         </div>
-        <div className="h-fit flex justify-center items-center rounded-full bs:mr-10 w-fit">
+        {/* <div className="h-fit flex justify-center items-center rounded-full bs:mr-10 w-fit">
           <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
             <img
               className="w-full  h-full rounded-full"
@@ -58,7 +58,7 @@ const About = () => {
               alt="profile"
             />
           </NeonGradientCard>
-        </div>
+        </div> */}
       </div>
       <ResumeViewer opened={opened} close={close} />
     </>

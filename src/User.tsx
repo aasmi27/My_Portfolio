@@ -7,51 +7,89 @@ const Info = {
     "React Native Developer",
     "AngularJS Developer",
   ],
-  bio: "As a highly skilled and goal-oriented mobile and web developer, I bring 3 years of comprehensive experience in the complete development cycle. My expertise spans ReactJS, React Native, AngularJS, and NodeJS, with a proven ability to stay ahead of leading development trends and drive strategic, efficient product upgrades. I am adept at delivering high-quality, innovative solutions and continuously enhancing my skills in dynamic, collaborative environments. I am seeking a challenging role where I can leverage my extensive development experience and technical expertise to contribute effectively and grow professionally.",
+  bio: "As a passionate and highly skilled mobile and web developer 🚀, I bring over 4 years of hands-on experience in creating innovative and high-quality solutions across diverse platforms 🌐. My expertise spans ReactJS, React Native, AngularJS, and NodeJS 💻, allowing me to stay ahead of the curve and deliver cutting-edge results. I thrive in dynamic, collaborative environments 🤝, where I continuously enhance my skills 💡 while driving strategic product improvements 📈. With a strong focus on efficiency ⚡ and performance 🔧, I am eager to take on a challenging role that leverages my expertise and contributes to the growth of impactful projects 🌱.",
 };
 
 const ProjectInfo = [
   {
+    title: "MograConnect",
+    desc: `
+      📱 A comprehensive mobile application designed for teachers to streamline daily academic tasks.<br />
+      ✏️ Key features include real-time attendance updates.<br />
+      ✔️ Seamless mark entry and various advanced functionalities aimed at enhancing efficiency.<br />`,
+    technologies: ["React Native", "NodeJS", "Tailwind", "Prisma", "AWS"],
+    link: "https://play.google.com/store/apps/details?id=com.mograconnect&hl=en_US",
+  },
+  {
+    title: "MograHUB",
+    desc: `
+      👨‍👩‍👧‍👦 A user-friendly mobile application for parents and students.<br />
+      📲 Access circulars, assignments, and monitor academic activities effortlessly.<br />
+      🌐 Available on both Google Play Store and Apple App Store.<br />
+      📈 Enhances communication and provides tools for efficient progress tracking and updates.<br />`,
+    technologies: ["React Native", "NodeJS", "Tailwind", "Prisma", "AWS"],
+    link: "https://play.google.com/store/apps/details?id=com.mogra.hub&hl=en_US",
+  },
+  {
+    title: "MograHUB Web",
+    desc: `
+      💻 A user-friendly web application for parents and students.<br />
+      🌐 Access circulars, assignments, and monitor academic activities from desktops or laptops.<br />
+      📈 Provides a seamless web-based experience to stay updated with academic progress.<br />`,
+    technologies: ["ReactJS", "NodeJS", "Tailwind", "Prisma", "AWS"],
+    link: "https://ppn-dev.mograsys.co.in/",
+  },
+  {
     title: "Mogra Trips",
-    desc: "This is a Trip management application integrated with email notifications and payment gateway for schools and other clients which is used for planning their trips for their proper destination",
+    desc: `
+      🚌 A trip management solution developed for schools and clients.<br />
+      ✉️ Features include email notifications.<br />
+      💳 Integrated payment gateways for smooth and secure transactions.<br />`,
     technologies: ["ReactJS", "Tailwind", "Redux", "NodeJS", "Prisma", "AWS"],
   },
   {
     title: "Online Admission Form",
-    desc: "This is a simple form developed for Online Admission Form which will be active only during the admission period.",
+    desc: `
+      📝 A streamlined online admission form designed to simplify the admission process.<br />
+      📅 Active only during the admission period for an intuitive and hassle-free experience.<br />`,
     technologies: ["ReactJS", "Tailwind", "Redux", "NodeJS", "Prisma", "AWS"],
+    link: "https://oa-dev.mograsys.co.in/sign-in?redirectUrl=/",
   },
   {
-    title: "Mograsys UserApp",
-    desc: "This is a mobile application completely developed for teachers to mark the Attendance and Mark Entry and several other advanced features are developed in this application.",
-    technologies: ["React Native", "NodeJS", "Tailwind", "Prisma", "AWS"],
-  },
-  {
-    title: "Mograsys ParentApp",
-    desc: "This is a mobile application completely developed for parents and students to check all the circulars, assignments and several other advanced features are developed in this application.",
-    technologies: ["React Native", "NodeJS", "Tailwind", "Prisma", "AWS"],
-  },
-  {
-    title: "Translation",
-    desc: "Worked on Auto translate for communication Application reference from TWITTER. Got a good amount of experience in using AWS translate similar to Google translate",
+    title: "Translation Feature",
+    desc: `
+      🌍 Developed an auto-translation feature inspired by Twitter's communication tools.<br />
+      ✨ Leveraged AWS Translate for real-time, high-quality translations.<br />
+      🔧 Gained valuable experience in language processing technologies.<br />`,
     technologies: ["HTML", "CSS", "AngularJS", "C#", "MySQL", "AWS"],
+    link: "https://ang1dev.mograsys.co.in/",
   },
   {
     title: "Logbook Dashboard",
-    desc: "Have worked as a full stack developer intensively Developed many applications like Teacher timetable, Assignment Scheduler, Class Profile View, Triangulation etc. Production code deployment and debugging",
+    desc: `
+      📘 Contributed as a full-stack developer to build essential modules like teacher timetables.<br />
+      📅 Worked on assignment schedulers, class profiles, and triangulation tools.<br />
+      ⚙️ Managed production code deployment and debugging for seamless operations.<br />`,
     technologies: ["HTML", "CSS", "AngularJS", "C#", "MySQL", "AWS"],
+    link: "https://ang1dev.mograsys.co.in/",
   },
   {
-    title:
-      "Parent Portal Application and Teacher Web Application(Student Leave Application)",
-    desc: "Created an application for parent portal where the student can apply their leaves and the teacher can approve and view the attachments attached by parents.",
+    title: "Parent Portal & Teacher Web Application",
+    desc: `
+      🌟 Developed a dual-purpose application for parents and teachers.<br />
+      📂 Parents can apply for student leaves and attach documents.<br />
+      ✔️ Teachers can review and approve applications, improving communication and efficiency.<br />`,
     technologies: ["HTML", "CSS", "AngularJS", "C#", "MySQL", "AWS"],
+    link: "https://ang1dev.mograsys.co.in/ppn/login",
   },
   {
-    title:
-      "File/Photo upload, download and export Functionality in almost all the Applications",
-    desc: "Managed the above case in almost all the applications which is redirected to S3 bucket and Images and uploaded after compression from original size",
+    title: "File/Photo Upload, Download, and Export",
+    desc: `
+      📤 Implemented file and photo upload, download, and export functionalities.<br />
+      📷 Optimized image compression before uploading to AWS S3 buckets.<br />
+      🔧 Ensured efficient storage and accessibility.<br />`,
     technologies: ["HTML", "CSS", "AngularJS", "C#", "MySQL", "AWS"],
+    link: "https://ang1dev.mograsys.co.in/",
   },
 ];
 
@@ -92,17 +130,17 @@ const socialLinks = [
 
 const ExperienceInfo = [
   {
-    role: "Team Lead",
-    company: "Mograsys Technologies",
-    date: "May 2024 - Present",
-    desc: "As a team lead, I actively participated in the ReactJS team, taking on responsibilities that included developing applications from scratch using ReactJS, Tailwind CSS, NodeJS, Postman, and Prisma. Additionally, I have worked on React Native projects. I collaborated on all stages of the systems development lifecycle, from requirement gathering to production releases. In my role, I supervised the work of programmers, designers, and technicians, assigned tasks, and monitored performance against targets. Furthermore, I explained project technical risks and benefits during project kick-offs, ensuring clear communication and understanding among all stakeholders.",
+    role: "Team Lead 👩‍💻",
+    company: "Mograsys Technologies 🏢",
+    date: "May 2024 - Present 📅",
+    desc: "As a team lead, I actively participated in the ReactJS team, taking on responsibilities like developing apps from scratch using ReactJS, Tailwind CSS, NodeJS, Postman, and Prisma. Additionally, I have experience with React Native projects 📱. I collaborated across all stages of the development lifecycle, from gathering requirements to production releases 🚀. I led a team of programmers, designers, and technicians 👨‍💻👩‍💻, assigning tasks and monitoring performance. I also communicated technical risks and benefits effectively during project kick-offs, ensuring clarity among all stakeholders 🗣️.",
     skills: ["React JS", "React Native", "Node JS", "Tailwind CSS"],
   },
   {
-    role: "Software Developer",
-    company: "Mograsys Technologies",
-    date: "June 2021 - April 2024",
-    desc: "As a software developer, my hands-on experience includes working with AngularJS, ReactJS, and NodeJS, alongside C# for API management and MySQL. I successfully implemented an AWS-S3 bucket system for seamless user document uploads, achieving a 50% reduction in upload errors and enhancing data integrity. My role involved reviewing code, debugging problems, and correcting issues, as well as coordinating with other engineers to evaluate and improve software and hardware interfaces. I am technically proficient, an analytical problem solver, and maintain a calm and focused demeanor. Additionally, I have updated legacy codebases to meet modern development standards, significantly improving functionality.",
+    role: "Software Developer 💻",
+    company: "Mograsys Technologies 🏢",
+    date: "June 2021 - April 2024 📅",
+    desc: "As a Software Developer, my hands-on experience spans AngularJS, ReactJS, NodeJS, C#, and MySQL 💾. I implemented an AWS-S3 bucket system for seamless document uploads, reducing upload errors by 50% and improving data integrity 🗃️. My role included code reviews, debugging, and collaborating with engineers to improve software and hardware interfaces ⚙️. I updated legacy codebases to modern standards, significantly improving functionality 📈. I'm known for my problem-solving skills, maintaining focus in challenging situations 💡.",
     skills: [
       "React JS",
       "Angular JS",
@@ -115,6 +153,7 @@ const ExperienceInfo = [
     ],
   },
 ];
+
 const Slugs = [
   "typescript",
   "javascript",

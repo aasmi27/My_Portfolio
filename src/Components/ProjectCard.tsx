@@ -59,14 +59,17 @@ const ProjectCard = (props: any) => {
               )
           )}
         </Group>
-        <Text
-          className="!text-justify !text-sm xs-mx:!text-xs"
+        {/* <Text
+          className="!text-justify !text-sm xs-mx:!text-xs text-gray-400"
           lineClamp={5}
           size="sm"
-          c="dimmed"
         >
           {props.desc}
-        </Text>
+        </Text> */}
+        <div
+            className="!text-justify !text-sm sm-mx:!text-base xs-mx:!text-xs text-gray-400"
+            dangerouslySetInnerHTML={{ __html: props.desc }}
+          />
 
         <Button
           onClick={open}
@@ -85,6 +88,7 @@ const ProjectCard = (props: any) => {
         title={props.title}
         desc={props.desc}
         technologies={props.technologies}
+        link={props.link}
       />
     </div>
   );

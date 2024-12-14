@@ -14,6 +14,7 @@ const FullProjectModal = (props: any) => {
   const download = useMatches({ xs: "xs", md: "sm", lg: "md", bs: "lg" });
   const techno = useMatches({ xs: "md", sm: "md", md: "lg", bs: "xl" });
   const btn = useMatches({ xs: "xs", sm: "sm", md: "md", lg: "lg" });
+
   return (
     <Modal.Root
       scrollAreaComponent={ScrollArea.Autosize}
@@ -69,15 +70,28 @@ const FullProjectModal = (props: any) => {
               </Badge>
             ))}
           </div>
-          <Text
-            className="!text-justify !text-lg sm-mx:!text-base xs-mx:!text-xs"
-            c="dimmed"
-          >
-            {props.desc}
-          </Text>
+          <div
+            className="!text-justify !text-lg sm-mx:!text-base xs-mx:!text-xs text-gray-400"
+            dangerouslySetInnerHTML={{ __html: props.desc }}
+          />
+          {props.link && (
+            <Button
+              className="mt-4"
+              size={btn}
+              component="a"
+              href={props.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="outline"
+              color="teal"
+            >
+              Visit Project
+            </Button>
+          )}
         </Modal.Body>
       </Modal.Content>
     </Modal.Root>
   );
 };
+
 export default FullProjectModal;
